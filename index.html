@@ -14,7 +14,14 @@
 <body>
 	<h4>requireJS 例子 example 01</h4>  
 	<div id="loadMsgCon" class="div01"></div>  
-	<script data-main="scripts/main" src="../js/require.js"></script> 
+	<div id="d2" class="div01"></div>  
+	<script data-main="scripts/main" src="./scripts/require.js"></script> 
 	<!--注意 requireJS 文件对应即可,同时data-main属性值写对即可-->  
+	<script type="text/javascript">
+		// require(["scripts/lib/jquery/jquery-1.11.1.min","scripts/work/workjs01"],function($,w1){
+		// 	w1.loadTip(123,'d2')
+
+		// });
+	</script>
 </body>
 </html>

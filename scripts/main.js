@@ -27,6 +27,7 @@ require.config({
   
 //2，about load each js code basing on different dependency  
 //按不同先后的依赖关系加载各个JS文件  
-require(["jquery","workjs01"],function($,w1){  
+require(["jquery","workjs01"],function($,w1){
+    w1.loadTip(123,'d2')
     require(['workjs02']);  
 });
